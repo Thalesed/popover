@@ -7,8 +7,12 @@ body{
 }
 
 .trigger{
+    text-decoration: underline;
     width: 150px;
-    margin: 60px auto;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 5%;
 }
 
 .balloon {
@@ -18,7 +22,7 @@ body{
     background-color: #ccc;
     padding: 10px;
     border-radius: 5px;
-    margin: 0px auto;
+    margin: 10px auto;
     height: 460px;
   }
 
